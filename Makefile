@@ -36,7 +36,7 @@ vcs:
 	./simv $(VCS_SIMV) +UVM_VERBOSITY=MEDIUM
 
 clean:
-	rm -rf a.out # simulation output file
+	rm -rf a.out *.o # simulation output file
 	rm -rf INCA_libs irun.log ncsc.log # ius
 	rm -rf work certe_dump.xml transcript .mgc_simple_ref .mgc_ref_nobuff .mgc_ref_oct # mgc
 	rm -rf csrc simv simv.daidir ucli.key .vlogansetup.args .vlogansetup.env .vcs_lib_lock simv.vdb AN.DB vc_hdrs.h *.diag *.vpd *tar.gz # vcs
