@@ -13,7 +13,7 @@ extern "C" const char* read_message(const char* message){
       return msg.c_str();
    }
    else
-     cout << "unable to open file ";
+     cout << "unable to open file";
 }
 
 
