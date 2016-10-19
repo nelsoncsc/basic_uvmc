@@ -38,8 +38,6 @@ class comparator #(type T = packet_in) extends uvm_scoreboard;
         $display("Comparator MISMATCH");
         mismatch++;
       end
-      /*if(match+mismatch > 2) 
-        $finish();*/
     endfunction: compare
    
 endclass: comparator
