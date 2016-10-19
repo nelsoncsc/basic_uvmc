@@ -8,7 +8,10 @@ class sequence_in extends uvm_sequence #(packet_in);
     endfunction: new
     
     int data_file, scan_file;
+<<<<<<< HEAD
     string filename;
+=======
+>>>>>>> 24538dea127b5fb0a0265ec2a0a9c321d8a04136
 
     function void open_file();
       data_file = $fopen("myfile.txt", "r");
